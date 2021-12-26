@@ -2,3 +2,4 @@ Basics/*
 !Basics/methods_and_interfaces/
 Basics/methods_and_interfaces/*
 !Basics/methods_and_interfaces/*.go
+hello_world_go
