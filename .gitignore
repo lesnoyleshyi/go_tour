@@ -20,4 +20,8 @@ Basics/Packages_variables_funcs/*
 /Basics/type_assertion/*
 !/Basics/type_assertion/*.go
 
+!/Basics/concurrency/
+/Basics/concurrency/*
+!/Basics/concurrency/*.go
+
 hello_world_go

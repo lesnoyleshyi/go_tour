@@ -15,14 +15,16 @@ func (i Image) ColorModel() color.Model {
 }
 
 func (i Image) Bounds() image.Rectangle {
-	return image.Rectangle{}
+	return image.Rect(0, 0, 100, 100)
 }
 
 func (i Image) At(x, y int) color.Color {
-	return color.RGBA{0, 0, 255, 255}
+	return color.RGBA{0, 208, 35, 255}
 }
 
 func main() {
 	m := Image{}
 	pic.ShowImage(m)
 }
+
+// this will print green rectangular of 100x100 pixels
