@@ -2,4 +2,7 @@ Basics/*
 !Basics/methods_and_interfaces/
 Basics/methods_and_interfaces/*
 !Basics/methods_and_interfaces/*.go
+!/Basics/type_assertion/
+/Basics/type_assertion/*
+!/Basics/type_assertion/*.go
 hello_world_go

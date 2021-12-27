@@ -16,7 +16,7 @@ func my_sqrt(x float64) float64 {
 
 func my_sqrt2(x float64) float64 {
 	rez := 1.0
-	for i := 1; math.Abs(math.Sqrt(x)-rez) > 0.0000000001; i++ {
+	for i := 0; math.Abs(math.Sqrt(x)-rez) > 0.0000000001; i++ {
 		rez -= (rez*rez - x) / (2 * rez)
 		fmt.Println(rez, i)
 	}
